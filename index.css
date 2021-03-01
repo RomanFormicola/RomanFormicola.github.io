@@ -1,0 +1,71 @@
+/* ///////////////////////////////////////////
+    Header 
+////////////////////////////////////////////*/
+
+#header {
+	display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    width: 100%;
+    background: #384647;
+    position: absolute;
+    top: 0px; left: 0px; right: 0px;
+}
+
+ul#project-list {
+    list-style: none;
+    text-align: center;
+}
+
+ul#project-list li {
+    display: inline-flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.htext {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* ///////////////////////////////////////////
+    Body
+////////////////////////////////////////////*/
+
+#picFrame {
+    display: block;
+}
+#me {
+    width:20%;
+    padding: 10px;
+    height:auto;
+    position: relative;
+
+}
+
+/* ///////////////////////////////////////////
+    footer
+////////////////////////////////////////////*/
+
+#ftext {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#footer {
+	display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    background: #384647;
+    width: 100%;
+    position: absolute;
+    bottom: 0px; left: 0px; right: 0px; 
+}
+
+ul#Contact_Information   {
+    list-style: none;
+    text-align: center;
+}
+
+ul#Contact_Information li {
+    display: inline-flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
